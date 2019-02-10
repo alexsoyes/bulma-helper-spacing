@@ -1,0 +1,26 @@
+{
+  "name": "bulma-helper-spacing",
+  "version": "0.0.1",
+  "description": "A simple spacing helper to use with Bulma !",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dinath/bulma-helper-spacing.git"
+  },
+  "keywords": [
+    "bulma",
+    "helper"
+  ],
+  "author": "dinath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dinath/bulma-helper-spacing/issues"
+  },
+  "homepage": "https://github.com/Dinath/bulma-helper-spacing#readme",
+  "dependencies": {
+    "bulma": ">=0.6.0"
+  }
+}

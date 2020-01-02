@@ -1,27 +1,25 @@
 
-
 // define sizes
 $__sizes: ('0':  0, '1': 0.125, '2': 0.25, '3': 0.5, '4': 1, '5': 2, '6': 4, '7': 6, '8': 8)
 $__positions: ( 'x': ('left', 'right'), 'y': ('top', 'bottom'), 'top': ('top'), 'right': ('right'), 'bottom': ('bottom'), 'left': ('left') )
-
 
 // Classics
 //
 //  eg:
 //
 // .has-padding-4 {
-//  padding: 1rem !important;
+//    padding: 1rem !important;
 // }
 //
 @each $__s, $__size in $__sizes
 
   // padding
-  .has-padding-#{$__s}
+  .has-padding-#{$__s} 
     padding: #{$__size}rem !important
 
   // margin
   .has-margin-#{$__s}
-    padding: #{$__size}rem !important
+    margin: #{$__size}rem !important
 
 
 //  Specifics

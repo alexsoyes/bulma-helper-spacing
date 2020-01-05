@@ -9,7 +9,7 @@ In order to work, `bulma-helper-spacing` is using `rem` for sizing. `margin-1` w
 
 You must use [Bulma](https://bulma.io/) as a dependency. 
 
-```
+```sh
 $ npm install bulma
 ```
 
@@ -24,13 +24,13 @@ $ npm install bulma
 
 ### Available on NPM
 
-```
+```sh
 $ npm install bulma-helper-spacing
 ```
 
 ## Usage
 
-```
+```scss
 // Import only what you need from Bulma
 @import './node_modules/bulma/sass/utilities/initial-variables.sass'; // required
 @import './node_modules/bulma/sass/utilities/derived-variables.sass'; // required
@@ -48,7 +48,7 @@ $ npm install bulma-helper-spacing
 Use these classes to generate spacing for *margins* and *paddings*. All 
 generated *CSS classes* are using Bulma's writing style.
 
-```
+```css
 has-{property}-{sides}(-{size})(-{breakpoint})
 ```
 
@@ -59,7 +59,7 @@ has-{property}-{sides}(-{size})(-{breakpoint})
 
 ### Examples
 
-```
+```html
 <!-- Padding -->
 <div class="has-padding-left-0"></div>
 <div class="has-padding-5"></div>

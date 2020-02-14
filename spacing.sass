@@ -72,7 +72,7 @@ $__positions: ( 'x': ('left', 'right'), 'y': ('top', 'bottom'), 'top': ('top'), 
 
   +fullhd
     @each $__p, $__position in $__positions
-      .has-padding-#{$__p}-#{$__s}fullhd
+      .has-padding-#{$__p}-#{$__s}-fullhd
         @each $__pos in $__position
           padding-#{$__pos}: #{$__size}rem !important
 
@@ -91,7 +91,7 @@ $__positions: ( 'x': ('left', 'right'), 'y': ('top', 'bottom'), 'top': ('top'), 
 
   +fullhd
     @each $__p, $__position in $__positions
-      .has-margin-#{$__p}-#{$__s}fullhd
+      .has-margin-#{$__p}-#{$__s}-fullhd
         @each $__pos in $__position
           margin-#{$__pos}: #{$__size}rem !important
 

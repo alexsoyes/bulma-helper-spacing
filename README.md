@@ -9,7 +9,7 @@ In order to work, `bulma-helper-spacing` is using `rem` for sizing. `margin-1` w
 
 You must use [Bulma](https://bulma.io/) as a dependency. 
 
-```sh
+```bash
 $ npm install bulma
 ```
 
@@ -24,7 +24,7 @@ $ npm install bulma
 
 ### Available on NPM
 
-```sh
+```bash
 $ npm install bulma-helper-spacing
 ```
 
